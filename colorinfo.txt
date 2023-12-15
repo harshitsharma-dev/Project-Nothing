@@ -1,0 +1,6 @@
+Heading - #DBADD2
+NavBar - #36175e
+Nav-Text - #C07DB0
+#F2DDEE - most light
+#9250BC - most dark
+second dark - #7E55A3

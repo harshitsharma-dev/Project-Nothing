@@ -31,7 +31,36 @@ main{
         grid-template-columns: 1fr;
     }
 }
-body{
-    margin-bottom: 0;
-    padding-bottom: 0;
+.contacts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+footer img{
+    width: 2rem;
+}
+footer a:hover img{
+    animation: widthinc 0.5s linear 0s;
+    width: 3rem;
+}
+@keyframes widthinc {
+    from{
+        width: 2rem;
+    }
+    to{
+        width: 3rem;
+    }
+}
+footer{
+    height: 8rem;
+}
+@media screen and (min-width : 600px) and (max-width : 900px) {
+    footer{
+        height: 14rem;
+    }
+}
+@media screen and (max-width : 600px) {
+    #mailid,#linkedinid{
+        display: none;
+    }
 }

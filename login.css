@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background-color: #F2DDEE;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav img{
+    width: 3rem;
+    margin-left: 0.75rem;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+nav{
+    background-color: #36175e;
+    padding-top: 0.35rem;
+    display: flex;
+    align-items: center;
+}
+#brandname{
+    color: #DBADD2;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+#disabled{
+    margin : 0 2rem;
+    color: #F2DDEE;
+    font-weight: lighter;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer img{
+    width: 2rem;
+}
+footer a:hover img{
+    animation: widthinc 0.5s linear 0s;
+    width: 3rem;
+}
+@keyframes widthinc {
+    from{
+        width: 2rem;
+    }
+    to{
+        width: 3rem;
+    }
+}
+footer{
+    height: 8rem;
+}
+@media screen and (min-width : 600px) and (max-width : 900px) {
+    footer{
+        height: 14rem;
+    }
+}
+@media screen and (max-width : 600px) {
+    #mailid,#linkedinid{
+        display: none;
+    }
+}

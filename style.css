@@ -31,7 +31,7 @@ main{
         grid-template-columns: 1fr;
     }
     iframe,#logoimage,#arjun{
-        height: 20rem;
+        height: 15rem;
     }
 }
 .contacts{

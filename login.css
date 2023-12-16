@@ -17,6 +17,9 @@ nav{
     display: flex;
     align-items: center;
 }
+nav a{
+    text-decoration: none;
+}
 #brandname{
     color: #DBADD2;
     font-size: 1.2rem;
@@ -59,4 +62,45 @@ footer{
     #mailid,#linkedinid{
         display: none;
     }
+}
+form{
+    font-size: 1.5rem;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 0.15fr 1fr;
+    grid-gap: 2rem;
+    margin-bottom: 2rem;
+}
+input{
+    width: 10rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+}
+main{
+    margin-bottom: 20rem;
+}
+#signup{
+    font-size: small;
+    margin-left: 1rem;
+    margin-top: 0;
+}
+#signup button{
+    margin: 0;
+    font-size: x-small;
+    border-radius: 2rem;
+    
+    width: 3.25rem;
+    color: #F2DDEE;
+    background-color: #36175e;
+}
+#signup button:hover, form button:hover{
+    cursor: pointer;
+}
+form button{
+    margin-left: 5rem;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 2rem;
+    color: #F2DDEE;
+    background-color: #36175e;
 }

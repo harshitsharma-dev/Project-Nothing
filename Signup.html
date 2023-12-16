@@ -3,40 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Sign UP</title>
     <link rel="icon" type="icon" href="finallogo.png">
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <nav>
-      <a href="index.html">
-        <div class="navbar-brand">
-          <div><img src="finallogo.png"></div>
-          <div id="brandname">Distraction</div>
-      </div>
-      </a>
-        <div id="disabled">
-            Belive in Yourself!!
+        <a href="index.html">
+          <div class="navbar-brand">
+            <div><img src="finallogo.png"></div>
+            <div id="brandname">Distraction</div>
         </div>
-      </nav>
-      <main>
+        </a>
+          <div id="disabled">
+              Belive in Yourself!!
+          </div>
+    </nav>
+    <main>
         <form action="home.html">
           <label for="Email">Email:</label>
           <input name="Email" id="Email" type="email">
-          
-          <label for="password">Password:</label>
+          <label for="EmailOTP">OTP sent to your email:</label>
+          <input name="EmailOTP" id="EmailOTP" type="password" maxlength="4">
+          <label for="password">Enter your new Password:</label>
+          <input name="password" id="password" type="password">
+          <label for="password">Enter your Password again:</label>
           <input name="password" id="password" type="password">
           <div></div>
-          <button type="submit">Login</button>
+          <button type="submit">CONTINUE</button>
         </form>
-        <div id="signup">Click here to <a href="Signup.html"><button>Sign UP</button></a> instead</div>
-      </main>
-      <footer style="background-color: #C07DB0; padding-bottom: 0; padding-top: 0; margin-bottom: 0;">
+        <div id="signup">Click here to <a href="login.html"><button>Login</button></a> instead</div>
+    </main>
+    <footer style="background-color: #C07DB0; padding-bottom: 0; padding-top: 0; margin-bottom: 0;">
         <p><h3 style="text-align: center;">Contact Us</h3></p>
         <div class="contacts">
           <div><p style="text-align: center; margin-top: 2rem; "><a href = "mailto:harshitsharma182021@gmail.com" id="mail"><img src="envelope.svg" style="margin-right: 1rem;"><span id="mailid">harshitsharma182021@gmail.com</span></a></p></div>
           <div><p style="text-align: center; margin-top: 2rem; "><a href="https://www.linkedin.com/in/harshitsharma-dev/"><img src="linkedin.svg" style="margin-left: 10rem; margin-right: 1rem;" id="linkedin"><span id="linkedinid">https://www.linkedin.com/in/harshitsharma-dev/</span></a></p></div>
         </div>
-      </footer>
+    </footer>
 </body>
 </html>
